@@ -1,0 +1,30 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+  background-color: #fff;
+  padding: 3em;
+  width: 816px;
+  height: 1056px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.employment-entry {
+  padding: 0.5em 0;
+}
+
+.employment .role {
+  font-weight: bold;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
   background-color: #000;
   display: flex;
@@ -5,7 +7,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#root {
+main {
   background-color: #fff;
   padding: 3em;
   width: 816px;
@@ -23,8 +25,8 @@ h2 {
 
 .employment-entry {
   padding: 0.5em 0;
-}
 
-.employment .role {
-  font-weight: bold;
+  .role {
+    font-weight: bold;
+  }
 }

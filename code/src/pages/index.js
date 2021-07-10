@@ -1,4 +1,7 @@
-function App() {
+import React from 'react';
+import '../styles/index.scss';
+
+export default function App() {
   return (
     <main className={'main'}>
       <Profile />
@@ -84,5 +87,3 @@ const EXPERIENCES = [
       'Instilling knowledge in all fields of natural science to young children through entertaining, engaging and enlightening experiments involving Physics, Biology and Chemistry.',
   },
 ];
-
-ReactDOM.render(<App />, document.querySelector('#root'));

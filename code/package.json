@@ -1,14 +1,5 @@
 {
-  "name": "curriculum-vitae",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Curriculum Vitae",
-  "author": "Zavid",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",

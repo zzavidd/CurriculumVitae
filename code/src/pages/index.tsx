@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/index.scss';
+import '../styles/App.scss';
 import { EXPERIENCES } from '../utils/constants';
 
 export default function App() {

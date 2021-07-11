@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+@import 'Sections';
+
 body {
   background-color: #000;
   display: flex;
@@ -16,17 +18,4 @@ main {
 
 h2 {
   text-transform: uppercase;
-}
-
-.section {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.employment-entry {
-  padding: 0.5em 0;
-
-  .role {
-    font-weight: bold;
-  }
 }

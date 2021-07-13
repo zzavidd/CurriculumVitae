@@ -1,12 +1,38 @@
 {
+  "eslintConfig": {
+    "extends": "@zzavidd/eslint-config"
+  },
+  "stylelint": {
+    "extends": "@zzavidd/stylelint-config"
+  },
+  "prettier": "@zzavidd/prettier-config",
   "scripts": {
-    "start": "gatsby develop"
+    "start": "gatsby develop",
+    "eslint": "eslint --ext .ts,.tsx .",
+    "stylelint": "stylelint **/**/*.scss"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "gatsby": "^3.9.0",
     "gatsby-plugin-sass": "^4.9.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "sass": "^1.35.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@zzavidd/eslint-config": "^0.2.10",
+    "@zzavidd/prettier-config": "^0.2.10",
+    "@zzavidd/stylelint-config": "^0.2.10",
+    "eslint": "^7.30.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "typescript": "^4.3.5"
   }
 }

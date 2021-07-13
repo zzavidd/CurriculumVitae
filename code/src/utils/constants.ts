@@ -1,4 +1,4 @@
-export const EXPERIENCES = [
+export const EXPERIENCES: Array<Experience> = [
   {
     company: 'IBM',
     type: 'Full-time',
@@ -43,3 +43,15 @@ export const EXPERIENCES = [
       'Instilling knowledge in all fields of natural science to young children through entertaining, engaging and enlightening experiments involving Physics, Biology and Chemistry.',
   },
 ];
+
+export const PROFILE_SUMMARY =
+  'A diligent developer whose experience in full-stack development and affinity for all things JavaScript drives his creative ability. Joining these traits are his consistent knack for grasping new software engineering concepts, above-average processing speed, quick learning curve, perseverance at solving problems, and a chronic cheerful smile.';
+
+type Experience = {
+  company: string;
+  role: string;
+  dates: string;
+  description: string;
+  type?: string;
+  location?: string;
+};

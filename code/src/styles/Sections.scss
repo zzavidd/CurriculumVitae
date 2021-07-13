@@ -1,12 +1,44 @@
-.section {
+.whole {
+  column-gap: 2em;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
 }
 
-.employment-entry {
+.employment-entry,
+.education-entry {
+  padding-bottom: 1em;
+}
+
+.education-entry-table {
+  column-gap: 1em;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
   padding: 0.5em 0;
 
-  .role {
-    font-weight: bold;
-  }
+}
+
+.role {
+  color: #00f;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.company,
+.education-entry-institution {
+  font-weight: bold;
+}
+
+.education-entry-table-stage {
+  font-weight: bold;
+}
+
+.dates,
+.education-entry-dates,
+.location {
+  font-size: 80%;
+}
+
+.description {
+  font-size: 90%;
+  padding-top: 0.5em;
 }

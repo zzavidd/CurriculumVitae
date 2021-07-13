@@ -1,7 +1,9 @@
-.whole {
-  column-gap: 2em;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+section.rhs {
+  padding: 2em;
+}
+
+section.employment h2 {
+  margin-top: 0;
 }
 
 .employment-entry,
@@ -14,17 +16,17 @@
   display: grid;
   grid-template-columns: 0.3fr 1fr;
   padding: 0.5em 0;
-
 }
 
 .role {
   color: #00f;
-  font-size: 120%;
+  font-size: 110%;
   font-weight: bold;
 }
 
 .company,
 .education-entry-institution {
+  font-size: 90%;
   font-weight: bold;
 }
 
@@ -32,13 +34,25 @@
   font-weight: bold;
 }
 
-.dates,
-.education-entry-dates,
 .location {
   font-size: 80%;
+  font-style: italic;
+}
+
+.employment-entry-metadata {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employment-entry-dates {
+  font-size: 70%;
+  font-weight: bold;
+  position: relative;
+  top: 3px;
+  white-space: pre-wrap;
 }
 
 .description {
-  font-size: 90%;
+  font-size: 85%;
   padding-top: 0.5em;
 }

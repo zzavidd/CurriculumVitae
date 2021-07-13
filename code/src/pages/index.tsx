@@ -19,14 +19,15 @@ library.add(faGithub, faEnvelope, faPhoneAlt, faMapMarkedAlt);
 export default function App() {
   return (
     <main className={'main'}>
-      <Profile />
-      <hr />
-      <section className={'whole'}>
+      <section className={'lhs'}>
+        <Profile />
+        <hr />
+        <Skills />
+      </section>
+      <section className={'rhs'}>
         <Employment />
-        <section className={'section'}>
-          <Education />
-          <Skills />
-        </section>
+        <hr />
+        <Education />
       </section>
     </main>
   );

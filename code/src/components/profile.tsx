@@ -1,44 +1,51 @@
 import { IconLookup } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { PROFILE_SUMMARY } from '../utils/constants';
 
 export default function Profile() {
   return (
     <section className={'profile'}>
-      <header className={'profile-header'}>
-        <div className={'profile-bio'}>
-          <div>
-            <img
-              src={'/zavid-avi.jpeg'}
-              alt={'Zavid Avi'}
-              className={'profile-bio-image'}
-            />
-          </div>
-          <div className={'profile-bio-text'}>
-            <h1>David Egbue</h1>
-            <p className={'profile-bio-text-title'}>JavaScript Developer</p>
-            <div className={'profile-bio-address'}>
-              Cambridge, England <br />
-              United Kingdom
-            </div>
-          </div>
+      <div className={'profile-bio'}>
+        <ProfileImage />
+        <h1 className={'profile-name'}>David Egbue</h1>
+        <p className={'profile-title'}>JavaScript Developer</p>
+        <div className={'profile-address'}>
+          Cambridge, England <br />
+          United Kingdom
         </div>
-        <div className={'profile-contact'}>
-          {CONTACT_DETAILS.map(({ icon, value }, key) => {
-            return (
-              <div className={'contact-row'} key={key}>
-                <span className={'contact-row__icon'}>
-                  <FontAwesomeIcon icon={icon} />
-                </span>
-                <span className={'contact-row__value'}>{value}</span>
-              </div>
-            );
-          })}
-        </div>
-      </header>
+      </div>
+      <hr />
+      <ContactDetails />
+      <hr />
+      <h2>Profile</h2>
       <p className={'profile-summary'}>{PROFILE_SUMMARY}</p>
     </section>
+  );
+}
+
+function ProfileImage() {
+  return (
+    <div className={'profile-image'}>
+      <img src={'/zavid-avi.jpeg'} alt={'Zavid Avi'} />
+    </div>
+  );
+}
+
+function ContactDetails() {
+  return (
+    <div className={'profile-contact'}>
+      {CONTACT_DETAILS.map(({ icon, value }, key) => {
+        return (
+          <div className={'profile-contact-row'} key={key}>
+            <FontAwesomeIcon
+              icon={icon}
+              className={'profile-contact-row__icon'}
+            />
+            <span className={'profile-contact-row__value'}>{value}</span>
+          </div>
+        );
+      })}
+    </div>
   );
 }
 
@@ -56,6 +63,9 @@ const CONTACT_DETAILS: Array<ContactDetail> = [
     value: '@zzavidd'
   }
 ];
+
+export const PROFILE_SUMMARY =
+  'A diligent developer whose experience in full-stack development and affinity for all things JavaScript drives his creative ability. Joining these traits are his consistent knack for grasping new software engineering concepts, a quick learning curve, perseverance at solving problems, and a chronic cheerful smile.';
 
 type ContactDetail = {
   icon: IconLookup;

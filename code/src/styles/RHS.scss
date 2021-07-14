@@ -2,6 +2,11 @@ section.rhs {
   padding: 1.5em;
 }
 
+section.rhs h2 {
+  font-size: 115%;
+  margin-bottom: 0.5em;
+}
+
 section.employment h2 {
   margin-top: 0;
 }
@@ -43,7 +48,7 @@ section.employment h2 {
 }
 
 .employment-entry-description {
-  font-size: 85%;
+  font-size: 80%;
   padding-top: 0.5em;
 }
 
@@ -55,11 +60,11 @@ section.employment h2 {
   }
 
   &-degree {
-    font-size: 85%;
+    font-size: 80%;
   }
 
   &-award {
-    font-size: 85%;
+    font-size: 80%;
     font-style: italic;
     font-weight: bold;
   }
@@ -82,5 +87,32 @@ section.employment h2 {
     &-grades {
       font-size: 80%;
     }
+  }
+}
+
+.projects-list {
+  column-gap: 1em;
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+}
+
+.projects-entry {
+  &-title {
+    color: #00f;
+    display: inline;
+    font-size: 85%;
+    font-weight: bold;
+  }
+
+  &-year {
+    display: inline;
+    font-size: 70%;
+    font-style: italic;
+    margin-left: 5px;
+  }
+
+  &-description {
+    font-size: 75%;
+    margin-top: 0.5em;
   }
 }

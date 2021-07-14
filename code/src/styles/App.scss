@@ -11,14 +11,18 @@ body {
   justify-content: center;
   letter-spacing: -0.5px;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
 main {
   background-color: #fff;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  height: 1169px;
-  width: 827px;
+  height: calc(3508px / 3);
+  margin: 0;
+  padding: 0;
+  width: calc(2480px / 3);
 }
 
 h2 {

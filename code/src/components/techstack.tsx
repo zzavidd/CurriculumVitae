@@ -5,7 +5,7 @@ import * as CUI from '@coreui/icons';
 export default function TechStack() {
   return (
     <section className={'techstack'}>
-      <h2>Tech Stack</h2>
+      <h2>Tech Pool</h2>
       <TechStackIconSet
         label={'Work most frequently with'}
         icons={STRONG_ICONS}
@@ -37,14 +37,15 @@ const STRONG_ICONS: Array<TechStackIcon> = [
   { name: 'JavaScript', icon: CUI.cibJavascript },
   { name: 'React', icon: CUI.cibReact },
   { name: 'Node.js', icon: CUI.cibNodeJs },
-  { name: 'Sass', icon: CUI.cibSassAlt },
+  { name: 'TypeScript', icon: CUI.cibTypescript },
   { name: 'Next.js', icon: CUI.cibNextJs },
-  { name: 'TypeScript', icon: CUI.cibTypescript }
+  { name: 'Sass', icon: CUI.cibSassAlt }
 ];
 
 const FAIR_ICONS: Array<TechStackIcon> = [
   { name: 'Gatsby', icon: CUI.cibGatsby },
   { name: 'Redux', icon: CUI.cibRedux },
+  { name: 'Webpack', icon: CUI.cibWebpack },
   { name: 'Java', icon: CUI.cibJava },
   { name: 'Python', icon: CUI.cibPython },
   { name: 'MySQL', icon: CUI.cibMysql },

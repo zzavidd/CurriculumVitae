@@ -49,7 +49,7 @@ const EXPERIENCES: Array<Experience> = [
     role: 'Director & Web Developer',
     dates: 'Mar 2017 - Feb 2021',
     description:
-      'Facilitating discussions and debates on topics centred around and beyond the Black community at university campuses, local schools and external organisations. Singlehandedly developing and designing the website, automated emails and Slack bots using React, Node.js and EJS.'
+      'Facilitating discussions and debates on topics centred around and beyond the Black community at university campuses, local schools and external organisations. Singlehandedly developing and designing the website.'
   },
   // {
   //   company: 'University of Surrey',

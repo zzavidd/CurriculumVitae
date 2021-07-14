@@ -4,7 +4,7 @@ section.lhs {
   color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 2em;
+  padding: 1.5em;
 }
 
 section.lhs h2 {
@@ -64,4 +64,33 @@ section.lhs h2 {
 
 .profile-summary {
   font-size: 90%;
+  margin: 0.5em 0 0;
+}
+
+section.lhs h5 {
+  margin: 0.5em 0;
+}
+
+.techstack-iconset {
+  column-gap: 0.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  svg {
+    margin: 0.5em 0.2em;
+  }
+}
+
+.techstack-iconset-entry {
+  align-items: center;
+  display: flex;
+
+  &__label {
+    font-size: 70%;
+    margin-left: 0.1em;
+  }
+}
+
+.techstack-block {
+  margin: 1em 0;
 }

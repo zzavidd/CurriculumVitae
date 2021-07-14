@@ -41,7 +41,7 @@ const EXPERIENCES: Array<Experience> = [
     dates: 'Sep 2019 - present',
     location: 'Fulbourn, Cambridgeshire',
     description:
-      'At IBM i2, contributing to the development of i2 Analyze; used for analysis and storage of intelligence data by law enforcement and other clients around the world. Operating as a Java server developer.'
+      'At IBM i2; contributing to the development of i2 Analyze; used for analysis and storage of intelligence data by law enforcement and other clients around the world. Operating as a Java server developer.'
   },
   {
     company: '#WOKEWeekly',
@@ -51,23 +51,23 @@ const EXPERIENCES: Array<Experience> = [
     description:
       'Facilitating discussions and debates on topics centred around and beyond the Black community at university campuses, local schools and external organisations. Singlehandedly developing and designing the website, automated emails and Slack bots using React, Node.js and EJS.'
   },
-  {
-    company: 'University of Surrey',
-    type: 'Part-time',
-    role: 'Computer Lab Assistant',
-    dates: 'Oct 2018 - Dec 2018\nFeb 2017 - Jun 2017',
-    location: 'Guildford, Surrey',
-    description:
-      'Assisting lecturers by providing support for first and second year Computer Science undergraduates during their practical laboratory sessions.'
-  },
+  // {
+  //   company: 'University of Surrey',
+  //   type: 'Part-time',
+  //   role: 'Computer Lab Assistant',
+  //   dates: 'Oct 2018 - Dec 2018\nFeb 2017 - Jun 2017',
+  //   location: 'Guildford, Surrey',
+  //   description:
+  //     'Assisting lecturers by providing support for first and second year Computer Science undergraduates during their practical laboratory sessions.'
+  // },
   {
     company: 'IBM',
     type: 'Internship',
     role: 'Software Engineer',
     dates: 'Jul 2017 - Aug 2018',
-    location: 'Hursley, Winchester',
+    location: 'Hursley, Hampshire',
     description:
-      'A member of the baseline team for IBM MQ; developing the team’s test submission tool built using Node.js, diagnosing failing test suites and performing installation verification testing of MQ products.'
+      'At IBM MQ; developing the team’s test submission tool built using Node.js, diagnosing failing test suites and performing installation verification testing of MQ products.'
   }
   // {
   //   company: 'Richer Education Ltd.',

@@ -10,7 +10,8 @@ import React from 'react';
 import Education from '../components/education';
 import Employment from '../components/employment';
 import Profile from '../components/profile';
-import Skills from '../components/skills';
+import Projects from '../components/projects';
+import TechStack from '../components/techstack';
 
 import '../styles/App.scss';
 
@@ -22,12 +23,14 @@ export default function App() {
       <section className={'lhs'}>
         <Profile />
         <hr />
-        <Skills />
+        <TechStack />
       </section>
       <section className={'rhs'}>
         <Employment />
         <hr />
         <Education />
+        <hr />
+        <Projects />
       </section>
     </main>
   );

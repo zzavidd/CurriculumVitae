@@ -60,12 +60,12 @@ const CONTACT_DETAILS: Array<ContactDetail> = [
   },
   {
     icon: { prefix: 'fab', iconName: 'github' },
-    value: '@zzavidd'
+    value: 'github.com/zzavidd'
   }
 ];
 
 export const PROFILE_SUMMARY =
-  'A diligent developer whose experience in full-stack development and affinity for all things JavaScript drives his creative ability. Joining these traits are his consistent knack for grasping new software engineering concepts, a quick learning curve, perseverance at solving problems, and a chronic cheerful smile.';
+  'A diligent developer whose experience with both client-side and server-side technologies, as well as his affinity for all things JavaScript, drives his creative ability. Joining these traits are his consistent knack for grasping new software engineering concepts, a quick learning curve, perseverance at solving problems, and a chronic cheerful smile.';
 
 type ContactDetail = {
   icon: IconLookup;

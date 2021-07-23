@@ -1,6 +1,6 @@
-import React from 'react';
-import CIcon from '@coreui/icons-react';
 import * as CUI from '@coreui/icons';
+import CIcon from '@coreui/icons-react';
+import React from 'react';
 
 export default function TechStack() {
   return (

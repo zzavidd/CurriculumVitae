@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Metadata } from './fragments';
 
 export default function Education() {

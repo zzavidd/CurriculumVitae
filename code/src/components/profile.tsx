@@ -26,7 +26,7 @@ export default function Profile() {
 function ProfileImage() {
   return (
     <div className={'profile-image'}>
-      <img src={'/zavid-avi.jpeg'} alt={'Zavid Avi'} />
+      <img src={'/images/zavid-avi.jpeg'} alt={'Zavid Avi'} />
     </div>
   );
 }

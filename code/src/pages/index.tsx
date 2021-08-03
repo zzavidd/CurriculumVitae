@@ -55,6 +55,7 @@ export default function App() {
     });
   };
 
+  // TODO: Have download include SVGs
   const savePDF = async () => {
     const { jsPDF } = await import('jspdf');
     await import('svg2pdf.js');
